@@ -1,11 +1,12 @@
 {
-  "homepage" : "https://pgsandbox.altimetrik.com/project700/",
+  "homepage": "https://pgsandbox.altimetrik.com/project700/",
   "name": "react-template",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "@material-ui/core": "^4.11.2",
+    "react": "next",
+    "react-dom": "next",
     "react-scripts": "2.1.1",
     "terser": "3.14.1"
   },

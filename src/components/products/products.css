@@ -1,0 +1,13 @@
+.product_card {
+    box-shadow: inset -3px -3px 5px #ffffff70, 3px 3px 15px #00000070;
+    height: 300px;
+    width: 300px;
+    margin: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.grid_5 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
