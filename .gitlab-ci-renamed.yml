@@ -1,5 +1,5 @@
 variables:
-  RELEASE_NAME: "project700"
+  RELEASE_NAME: "project781"
   SERVICE_PORT: 80
   REGISTRY_URL: 751503455312.dkr.ecr.us-east-1.amazonaws.com/pgdockrepo
 

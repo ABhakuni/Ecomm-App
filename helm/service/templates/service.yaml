@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "project700.fullname" . }}
+  name: {{ include "project781.fullname" . }}
   labels:
-    app.kubernetes.io/name: {{ include "project700.name" . }}
-    helm.sh/chart: {{ include "project700.chart" . }}
+    app.kubernetes.io/name: {{ include "project781.name" . }}
+    helm.sh/chart: {{ include "project781.chart" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
     app.kubernetes.io/managed-by: {{ .Release.Service }}
 spec:
@@ -15,5 +15,5 @@ spec:
       protocol: TCP
       name: http
   selector:
-    app.kubernetes.io/name: {{ include "project700.name" . }}
+    app.kubernetes.io/name: {{ include "project781.name" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
